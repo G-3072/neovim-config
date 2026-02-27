@@ -23,4 +23,4 @@ vim.opt.undofile = true
 vim.opt.scrolloff = 8
 
 vim.opt.showmode = false
-
+vim.opt.showtabline = 2

@@ -6,6 +6,9 @@ vim.keymap.set("n", "<leader>qf", vim.cmd.q)
 vim.keymap.set("n", "<leader>qq", vim.cmd.qa)
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
+vim.keymap.set("n", "<leader>tv", "<C-w>v<C-w>l<Cmd>te<CR>i")
+vim.keymap.set("n", "<leader>th", "<C-w>s<C-w>j<Cmd>te<CR>i")
+
 vim.keymap.set("n", "<C-c>", ":nohl<CR>", { silent = true }) 
 vim.keymap.set("n", "<leader>o", "o<Esc>0", opts)
 vim.keymap.set("n", "<leader>O", "O<Esc>0", opts)
