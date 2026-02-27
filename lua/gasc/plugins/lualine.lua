@@ -7,6 +7,31 @@ return {
                 theme = 'auto',
                 section_separators = '',
                 component_separators = '|',
+                disabled_filetypes = {
+                    statusline = { },
+                    winbar = { "neo-tree" },
+                },
+                always_divide_middle = true,
+                always_show_tabline = true,
+                globalstatus = true,
+                refresh = {
+                    statusline = 1000,
+                    tabline = 1000,
+                    winbar = 1000,
+                    refresh_time = 16, -- ~60fps
+                    events = {
+                        'WinEnter',
+                        'BufEnter',
+                        'BufWritePost',
+                        'SessionLoadPost',
+                        'FileChangedShellPost',
+                        'VimResized',
+                        'Filetype',
+                        'CursorMoved',
+                        'CursorMovedI',
+                        'ModeChanged',
+                    },
+            },
             },
             sections = {
                 lualine_a = {'mode'},
@@ -48,6 +73,6 @@ return {
                 lualine_y = {},
                 lualine_z = {}
             }
-        })
-    end            
-}
+            })
+        end            
+    }
