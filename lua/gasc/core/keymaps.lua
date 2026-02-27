@@ -1,12 +1,15 @@
 local opts = { noremap = true, silent = true}
 vim.g.mapleader = ' '
 
-vim.keymap.set("n", "<C-t>", vim.cmd.te)
+vim.keymap.set("n", "<leader>qw", vim.cmd.wq)
+vim.keymap.set("n", "<leader>qf", vim.cmd.q)
+vim.keymap.set("n", "<leader>qq", vim.cmd.qa)
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+
 vim.keymap.set("n", "<C-c>", ":nohl<CR>", { silent = true }) 
 vim.keymap.set("n", "<leader>o", "o<Esc>0", opts)
 vim.keymap.set("n", "<leader>O", "O<Esc>0", opts)
-vim.keymap.set("n", "<leader>w", vim.cmd.w)
-vim.keymap.set("n", "<leader>qq", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>ww", vim.cmd.w)
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 vim.keymap.set("n", "<C-h>", "<C-w>h", opts)
