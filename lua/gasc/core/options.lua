@@ -2,7 +2,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
+vim.opt.softtabstop = 6
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.autoindent = true
@@ -25,7 +25,9 @@ vim.opt.scrolloff = 8
 vim.opt.showmode = false
 vim.opt.showtabline = 2
 
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+vim.g.netrw_liststyle = 3
+vim.g.netrw_banner = 0
+vim.g.netrw_keepdir = 1
+vim.g.netrw_altv = 3
 
 vim.opt.termguicolors = true

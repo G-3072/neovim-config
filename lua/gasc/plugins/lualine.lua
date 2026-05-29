@@ -10,7 +10,7 @@ return {
                 component_separators = '|',
                 disabled_filetypes = {
                     statusline = { },
-                    winbar = { "neo-tree" },
+                    winbar = { },
                 },
                 always_divide_middle = true,
                 always_show_tabline = true,

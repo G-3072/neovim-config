@@ -2,8 +2,8 @@ local opts = { noremap = true, silent = true}
 vim.g.mapleader = ' '
 
 vim.keymap.set("n", "<leader>qw", vim.cmd.wq)
-vim.keymap.set("n", "<leader>qf", vim.cmd.q)
-vim.keymap.set("n", "<leader>qq", vim.cmd.qa)
+vim.keymap.set("n", "<leader>qq", vim.cmd.q)
+vim.keymap.set("n", "<leader>qa", vim.cmd.qa)
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
 vim.keymap.set("n", "<leader>tv", "<C-w>v<C-w>l<Cmd>te<CR>i")
