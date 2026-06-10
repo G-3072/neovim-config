@@ -8,17 +8,8 @@ return {
     config = function()
         require("mason-lspconfig").setup({
             ensure_installed = {
-                "lua_ls",
-                "rust_analyzer",
-                --"mbake",
-                --"debugpy",
-                --"cortex-debug",
-                "cmake",
-                "tinymist",
-                "asm_lsp",
                 "clangd",
                 "pyre",
-                --"cpptools"
             }
         })
     end
