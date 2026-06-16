@@ -12,7 +12,7 @@ return {
                 "clangd",
                 "cmake",
                 "lua_ls",
-                "pyre",
+                "pyright",
                 "rust_analyzer",
                 "tinymist"
             }
