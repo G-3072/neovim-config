@@ -1,1 +1,1 @@
-require('gasc')
+require("config")

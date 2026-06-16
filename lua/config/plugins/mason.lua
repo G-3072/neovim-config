@@ -8,8 +8,13 @@ return {
     config = function()
         require("mason-lspconfig").setup({
             ensure_installed = {
-                "cland",
-                "pyre",
+                "asm_lsp",
+                "clangd",
+                "cmake",
+                "lua_ls",
+                "pyright",
+                "rust_analyzer",
+                "tinymist"
             }
         })
     end
