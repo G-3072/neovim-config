@@ -35,7 +35,7 @@ vim.api.nvim_set_keymap("t", "<Esc>", [[<C-\><C-n>]], opts)
 
 vim.keymap.set("n", "<leader>tt", "<C-w>s<C-w>j<Cmd>te<CR>:resize -10<CR>i", opts)
 
-vim.keymap.set("n", "<leader>ee", function ()
+vim.keymap.set("n", "<leader>re", function ()
     vim.cmd("wincmd v")
     vim.cmd("wincmd l")
     vim.cmd("wincmd H")

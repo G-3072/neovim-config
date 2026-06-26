@@ -55,8 +55,6 @@ dap.configurations = {
     },
 }
 
-require("config.debug.debugpy")
-
 dapui.setup()
 vim.fn.sign_define("DapBreakpoint", { text = "●"})
 
